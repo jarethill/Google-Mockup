@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+        <img
+            id="google-logo"
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            alt="Google Logo"
+        />
+
+        <form action="search.php" method="POST">
+            <input type="text" id="searchForm" name="searchquery" />
+            <br />
+
+            <input
+                type="submit"
+                class="searchButtons"
+                id="regularSearch"
+                value="Google Search"
+            />
+            <input
+                type="submit"
+                class="searchButtons"
+                id="feelingLucky"
+                value="I'm Feeling Lucky"
+            />
+        </form>
+    </body>
+</html>

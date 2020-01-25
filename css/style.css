@@ -1,0 +1,55 @@
+#google-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#searchForm {
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.158);
+    border-width: 1px;
+    display: block;
+    margin: 30px auto 0 auto;
+    line-height: 45px;
+    width: 550px;
+    background-image: url(/images/mag.png), url(/images/google-voice-png-5.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px, 16px;
+    background-position-x: 10px, 523px;
+    text-indent: 3em;
+    font-size: 1em;
+    font-family: arial, sans-serif;
+    outline: none;
+}
+
+.searchButtons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 135px;
+    height: 38px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    border-width: 0.5px;
+    border-color: rgba(0, 0, 0, 0.068);
+    color: #5f636c;
+    font-size: 0.9em;
+}
+
+#regularSearch {
+    position: relative;
+    right: 85px;
+    top: 12px;
+}
+
+#feelingLucky {
+    position: relative;
+    left: 75px;
+    right: unset;
+    top: unset;
+    bottom: 26px;
+}
