@@ -1,3 +1,44 @@
+.navbar {
+    background-color: #ffffff;
+    color: #515151;
+    list-style: none;
+    text-align: left;
+    padding: 20px 20px 20px 5px;
+}
+
+.navbar > li {
+    display: inline-block;
+    padding: 0 0 0 15px;
+}
+
+.navbar > li > a {
+    text-decoration: none;
+    color: #515151;
+    font-size: 13px;
+}
+
+.navbar > li > a:hover {
+    text-decoration: underline;
+}
+
+.navbar > li > #signInButton {
+    background-color: #4584ef;
+    border: #4584ef solid 1px;
+    border-radius: 2px;
+    color: #ffffff;
+    padding: 7px 12px 7px 12px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    bottom: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
 #google-logo {
     display: block;
     margin-left: auto;
